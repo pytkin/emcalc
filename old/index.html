@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+	 
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pl">
+
+<head>
+
+  <title>Em Calculator</title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<script type="text/javascript" src="engine.js"></script>
+	
+	<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+	<script type="text/javascript">_uacct = "UA-167267-5"; urchinTracker();</script>
+	
+</head>
+<body>
+
+<div id="intro">
+	<h1>Em Calculator</h1>
+	<form action=""><fieldset>
+		<label>Default browser font size: <kbd><input id="base" type="text" value="16" size="3" /> px</kbd></label> = <code>100%</code> | <label>Show decimals: <kbd><input id="round" type="text" value="2" size="2" maxlength="2" /> digits</kbd></label><br /><label><input id="prompt" type="checkbox" />Prompt for node name</label> | <a href="#" onclick="calcFields(); return false;">Calculate</a>
+	</fieldset></form>
+</div>
+
+<ul id="tree"><li class="lv1"><form action=""><fieldset><label><code>body</code> { <kbd><input onkeyup="calcFields(this)" class="calc" id="input" type="text" size="3"/> px</kbd></label> = <label><samp><input readonly="readonly" type="text" size="6"/> em</samp> } </label><span>Add: <a href="#" onclick="return addChild(this)">child</a></span></fieldset></form></li></ul>	
+
+<p>JavaScript enabled browser required. Version 1.0.2. <a href="http://riddle.jogger.pl/2006/05/28/em-calculator-1.0/">Comments?</a><br />Copyright <a href="http://riddle.pl">Piotr 'Riddle' Petrus</a> unless otherwise stated &copy; 2006</p>
+
+
+</body>
+</html>

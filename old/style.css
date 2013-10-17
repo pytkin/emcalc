@@ -1,0 +1,100 @@
+	body {
+		font: normal 90% Verdana, sans-serif;
+		background: #FFF;
+		color: #000;
+	}
+	
+	#intro {
+		background: #EEE;			
+		border: 5px solid #BBB;
+		padding: 0.5em;
+		overflow: auto;
+	}
+	
+	#intro h1 {
+		font-size: 1em;
+		margin: 0 0 0.5em 0;
+	}
+	
+	#intro fieldset {
+		background: #FFF;
+		border: 2px solid #CCC;
+	}
+	
+	span {
+		font-size: 80%;
+	}
+	
+	a, a:visited {
+		color: inherit;
+		border-bottom: 1px dotted;
+		text-decoration: none;
+	}
+	
+	a:hover {
+		border-bottom-style: solid;
+	}
+	
+	code, var, samp, kbd { 
+		font-size: 120%;
+	}
+	
+	label {
+		cursor: pointer;
+	}
+	
+	input {
+		font-size: 1em;
+		border: 1px solid #A7A6AA;
+		background: #FFF;
+		color: #333;
+		font-family: monospace;
+		padding: 2px;
+	}
+	
+	samp input { background: #EEE; }
+	
+	#tree {
+		margin: 0;
+		padding: 0;
+	}
+
+	li {
+		list-style: none;
+		display: block;
+	}
+	
+	ul form { 
+		width: 420px;
+		position: relative; 
+	}
+	
+	ul fieldset {
+		margin: 0.5em 0;
+		border: 2px solid;
+		padding: 0.5em;
+	}
+	
+	a.del {
+		position: absolute;
+		right: 2px;
+		top: 2px;
+		padding: 0 4px 2px 4px;
+		border: none;
+		display: block;
+	}
+	
+	a.del:hover { background: #000; color: #FFF; }
+	
+	li.lv1 fieldset { background: #FFE1ED; border-color: #CC0066; color: #990033; }
+	li.lv2 fieldset { background: #EDE1FF; border-color: #6600CC; color: #330099; }	
+	li.lv3 fieldset { background: #E1F5FF; border-color: #0099CC; color: #006699; }	
+	li.lv4 fieldset { background: #F8FFE1; border-color: #99CC00; color: #699C00; }	
+	li.lv5 fieldset { background: #FFF5E1; border-color: #CC9900; color: #996600; }	
+	li.lv6 fieldset { background: #F2F2F2; border-color: #CCCCCC; color: #777777; }	
+	li.lv7 fieldset { background: #FDE1FF; border-color: #CC00CC; color: #990099; }
+	li.lv8 fieldset { background: #EDE1FF; border-color: #6600CC; color: #330099; }	
+	li.lv9 fieldset { background: #E1F5FF; border-color: #0099CC; color: #006699; }	
+	li.lv10 fieldset { background: #F8FFE1; border-color: #99CC00; color: #699C00; }	
+	li.lv11 fieldset { background: #FFF5E1; border-color: #CC9900; color: #996600; }	
+	li.lv12 fieldset { background: #F2F2F2; border-color: #CCCCCC; color: #777777; }	
